@@ -15,17 +15,28 @@ Window {
         anchors.centerIn: parent
     }
     Rectangle{
+        id:blueRect
         width: 50
         height: 50
+        radius: 100
         anchors.centerIn: root
         color: "blue"
     }
     Rectangle{
-        width: 50
-        height: 50
-        anchors.centerIn: root
-        color: "blue"
-        anchors.top: root.top
-        anchors.left: root.left
+        id:yellowRect
+        width: 100
+        height: 100
+        color: "yellow"
+        anchors.top: blueRect.bottom
+        anchors.left: blueRect.right
+        anchors.margins: -10
+        Rectangle{
+            id:purpleRect
+            color: "purple"
+            width: 50
+            height: 50
+            anchors.margins: 5
+            anchors.left: root.left
+        }
     }
 }
