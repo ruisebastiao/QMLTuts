@@ -9,3 +9,4 @@ https://www.youtube.com/watch?v=6KtOzh0StTc&list=PL2D1942A4688E9D63
 5) QMLParentChildAnchors - VoidRealms #142 
 6) QMLImageDemo - VoidRealms #143
 7) QMLImageRowsColumns - VoidRealms #144
+8) QMLTextInputArea - VoidRealms #145
