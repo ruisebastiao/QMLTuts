@@ -11,3 +11,4 @@ https://www.youtube.com/watch?v=6KtOzh0StTc&list=PL2D1942A4688E9D63
 7) QMLImageRowsColumns - VoidRealms #144
 8) QMLTextInputArea - VoidRealms #145
 9) QMLDialogsTextFields - VoidRealms #146
+10) QMLRotationAnimation - VoidRealms #147
